@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "AI Email Reply Assistant",
+  "version": "1.0",
+  "description": "Generate smart email replies in Gmail",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
