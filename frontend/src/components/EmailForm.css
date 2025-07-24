@@ -1,0 +1,42 @@
+/* frontend/src/components/EmailForm.css */
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  font-size: 1rem;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.output {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #e7f3ff;
+  border-left: 4px solid #007bff;
+  border-radius: 6px;
+}
